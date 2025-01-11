@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+.box{
+    color: white;
+    height: 50px;
+    width: 50px;
+    padding:10px;
+    margin: 10px;
+
+}
+#box1{
+background-color: chocolate;
+text-align: center;
+font-size: large;
+}
+#box2{
+
+    background-color: black;
+    text-align: left;
+    font-size: large;
+    text-decoration: underline;
+
+}
+#box3{
+    background-color: rgb(255, 0, 51);
+    text-align: right;
+    font-size: large;
+
+}
+#box4{
+    text-decoration: none;
+}

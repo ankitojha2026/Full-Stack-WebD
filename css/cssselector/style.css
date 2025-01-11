@@ -1,0 +1,58 @@
+/*  (.) it is using for the selecting to the class selector */
+.html{
+    color:#E96228;
+}
+
+/* .html:hover {} are using when our corsor are ther then the color of the text will be changed */
+.html:hover {
+    color: orange;
+}
+
+
+
+
+.css{
+    color:aliceblue;
+}
+.css:hover {
+    color:#dd252b;
+}
+.js{
+    color:#EFD81D;
+}
+.react{
+    color:pink;
+    /* background-color: black; */
+}
+.tailwind{
+    color:hotpink;
+}
+
+
+
+
+/* (#) id seloctor it is use for selecting the id */
+#html{
+    font-size:large;
+}
+#ul{
+    background-color: yellowgreen;
+}
+
+
+
+/* attribute seleoctor */
+
+
+
+
+[class]{
+    background-color: skyblue;
+}
+ul p{
+    background-color: #E96228;
+}
+
+h1:hover{
+    color:#E96228
+}

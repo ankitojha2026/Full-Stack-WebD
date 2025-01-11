@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+margin: 0px;
+padding:0px ;
+box-sizing: border-box;   
+}
+
+
+/* this css class is making as a variable.
+step1- this is use for changing all the website col9r from here
+step2- this is use for modify all website color form here 
+we can be declear the variable an we can be manage the whole website from the here
+for declering the variable we are using two hifan(--) and where we need to use those all variables we need to use var() function
+*/
+
+:root {
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 3rem;
+}
+h2
+{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.8rem;
+    color: var(--secondary-text-color);
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+/* 
+utility class
+*/
+
+
+
+
+.haver-links:hover{
+   color: var(--accent-color-dark);
+    transition: 0.2s ease-out;
+
+}
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1500px;
+    margin-inline: auto;
+    padding: var(--padding-inline-section);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+
+    padding: 12px 24px;
+box-shadow: 0 0 2px var(--secondary-text-color);
+transition: 0.2s ease-out;
+
+
+}
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button{
+    border: 0.2px solid var(--secondary-text-color);
+    border-radius: 6px;
+    padding: 12px 10px;
+    font-weight: 700;
+    box-shadow: 0 0 2px var(--primary-text-color);
+
+}
+.secondary-button:hover{
+    background-color: var(--accent-color-dark);
+    color: white;
+}
+
+
+
+/* top banner */
+.top-banner{
+    background-color:#4fb3d4;
+    background-image: url('./assets/asset\ 28.png');
+    background-size: 300px;
+}
+/* banner text */
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* navbar */
+.main-nav{
+  margin-top: 20px;
+    justify-content: space-between;
+}
+.company-logo img{
+    width: 200px;
+}
+
+.nav-links{
+    flex-basis: 730px;
+
+}
+.nav-links ul{
+    justify-content: end;
+    gap:50px;
+
+}
+.haver-links{
+    color: #1b1b1b;
+
+}
+
+
+/* hearder section */
+.header{
+    padding: 50px var(--padding-inline-section) 0px;
+}
+
+.header-section{
+    justify-content: center;
+    gap:50px
+}
+.header-left{
+    max-width: 40vw;
+}
+.header-left h1{
+    margin-top: 20px;
+}
+.Get-Started{
+    margin-top:20px ;
+}
+.header-right img{
+    width: 500px;
+}
+
+/* 
+company header */
+.companys-header{
+    text-align: center;
+    margin-block:30px ;
+    color: var(--primary-text-color);
+}
+
+
+.logos{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 46px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* features section*/
+.features-section{
+    padding: 80px var(--padding-inline-section);
+}
+
+.features-header {
+    text-align: center;
+}
+.features-header h2{
+    margin-bottom: 20px;
+}
