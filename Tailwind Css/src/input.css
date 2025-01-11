@@ -1,0 +1,6 @@
+
+/* basicall this is tailwind css input css file */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
